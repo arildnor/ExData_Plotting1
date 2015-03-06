@@ -6,6 +6,10 @@
 #
 ################################################################################
 #
+# To make month and day is english
+#
+Sys.setlocale("LC_TIME","en_US.UTF-8")
+#
 # read data, note NA is ?
 #
 fileName <- "household_power_consumption.txt"
