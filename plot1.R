@@ -6,9 +6,10 @@
 #
 ################################################################################
 #
-# To make month and day is english
+# To make month and day printing US if another locale on Linux
+# Uncomment codeline
 #
-Sys.setlocale("LC_TIME","en_US.UTF-8")
+#Sys.setlocale("LC_TIME","en_US.UTF-8")
 #
 # read data, note NA is ?
 #
